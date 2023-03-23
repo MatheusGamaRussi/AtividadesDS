@@ -42,5 +42,12 @@ namespace ConteudoBimestral1
             frmdowhile ex_dowhile = new frmdowhile();
             ex_dowhile.Show();
         }
+
+        private void mnufor_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmfor ex_for = new frmfor();
+            ex_for.Show();
+        }
     }
 }

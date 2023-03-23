@@ -95,6 +95,7 @@
             this.mnufor.Name = "mnufor";
             this.mnufor.Size = new System.Drawing.Size(180, 22);
             this.mnufor.Text = "Comando For";
+            this.mnufor.Click += new System.EventHandler(this.mnufor_Click);
             // 
             // mnusair
             // 
