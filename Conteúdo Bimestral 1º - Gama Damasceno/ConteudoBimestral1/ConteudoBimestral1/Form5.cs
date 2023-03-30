@@ -30,5 +30,19 @@ namespace ConteudoBimestral1
             frmmenu menu = new frmmenu();
             menu.Show();
         }
+
+        private void btncalcular_Click(object sender, EventArgs e)
+        {
+            double num, n_tab;
+
+            num = Convert.ToDouble(txtnumero.Text);
+
+            for (int i = 0; i <= 10; i++)
+            {
+                n_tab = num * i;
+
+                txttabuada.Text = String.Concat(txttabuada.Text, " \n\n ", n_tab.ToString());
+            }
+        }
     }
 }
