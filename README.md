@@ -1,2 +1,2 @@
-# AtividadesCSharp
-Atividades de C#, realizadas no Visual Studio
+# AtividadesDS
+Atividades de Desenvolvimento de Software (/OwO)/.
