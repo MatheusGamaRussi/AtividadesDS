@@ -7,10 +7,10 @@ var
 i:inteiro
 rtabu, ntabu:real
 inicio
-escreva("Qual o número você deseja?: ")
-leia(ntabu)
-para i de 0 ate 10 faca
-   rtabu:=ntabu * i
-   escreva(rtabu)
-fimpara
+      escreva("Qual o número você deseja?: ")
+      leia(ntabu)
+      para i de 0 ate 10 faca
+           rtabu:=ntabu * i
+           escreva(rtabu)
+      fimpara
 fimalgoritmo
